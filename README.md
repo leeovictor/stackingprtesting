@@ -1,6 +1,6 @@
-# first version of readme
+# Main Title
 
-Author: Leonardo
+Author: Leonardo Victor Marques
 City: Uberlândia, MG
 
 1. item a
