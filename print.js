@@ -1,9 +1,7 @@
-// print age
-function printAge(age) {
+export function printAge(age) {
   console.log(age);
 }
 
-// print name
-function printName(name) {
+export function printName(name) {
   console.log(name);
 }
