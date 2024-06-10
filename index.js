@@ -11,6 +11,5 @@ function printName() {
   console.log(name);
 }
 
-// use print api here
 printName();
 printAge();
