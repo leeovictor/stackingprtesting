@@ -1,9 +1,13 @@
+import { createLogger } from 'logger.js';
+
+const logger = createLogger();
+
 export function printAge(age) {
-  console.log(age);
+  logger(age);
 }
 
 export function printName(name) {
-  console.log(name);
+  logger(name);
 }
 
 export function printInfo({ name, age }) {
