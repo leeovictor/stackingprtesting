@@ -1,9 +1,17 @@
+import { createLogger } from 'logger.js';
+
+const logger = createLogger();
+
 export function printAge(age) {
-  console.log(age);
+  if (typeof age !== 'undefined') {
+    logger(age);
+  }
 }
 
 export function printName(name) {
-  console.log(name);
+  if (typeof name !== 'undefined') {
+    logger(name);
+  }
 }
 
 export function printInfo({ name, age }) {
