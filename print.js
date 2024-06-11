@@ -3,11 +3,15 @@ import { createLogger } from 'logger.js';
 const logger = createLogger();
 
 export function printAge(age) {
-  logger(age);
+  if (typeof age !== 'undefined') {
+    logger(age);
+  }
 }
 
 export function printName(name) {
-  logger(name);
+  if (typeof name !== 'undefined') {
+    logger(name);
+  }
 }
 
 export function printInfo({ name, age }) {
