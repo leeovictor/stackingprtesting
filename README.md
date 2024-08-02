@@ -25,3 +25,5 @@ City: Uberlândia, MG
 ## final section here
 
 here we can discuss about stacked PRs and train my english
+
+eu sei que esta alteração não vai causar um conflito
