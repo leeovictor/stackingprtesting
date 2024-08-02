@@ -7,5 +7,6 @@ export const createLogger = (options) => {
   const options = { ...defaultOptions, ...options };
   return (...args) => {
     console.error(...args, ...options);
+    console.log(...args, ...options);
   };
 };
