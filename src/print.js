@@ -18,3 +18,9 @@ export function printInfo({ name, age }) {
   printName(name);
   printAge(age);
 }
+
+export function printAgeAsString(age) {
+  if (typeof age !== 'undefined') {
+    logger(age.toString());
+  }
+}
